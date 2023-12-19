@@ -1,2 +1,11 @@
-package org.visionFive.dto;public class Date {
+package org.visionFive.util;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+public class Date {
+    private int year;
+    private int month;
+    private  int day;
 }

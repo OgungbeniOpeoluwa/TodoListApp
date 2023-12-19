@@ -4,11 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="" />
+    <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/model/TodoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/repository/TodoListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/AllTaskForADayRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/AllTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/CreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/DataRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/UpdateDueDateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/UpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/ViewTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/AllDayTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/AllTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/CreateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/DeleteATaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/DeleteAccountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/DeleteAllResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/RegisterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/UpdateDueDateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/UpdateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/ViewTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/InvalidDetailsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/InvalidRegistraionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/NoTaskAvailableForUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/TodoListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/DueDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/HashPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/visionFive/services/TodoListServiceImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,14 +79,137 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Dell/IdeaProjects/todoList/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/IdeaProjects/todoList/src/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3cef5776249ca556508c8e793f58e6ec&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.visionFive.dto.response" />
+      <recent name="org.visionFive.dto.request" />
+      <recent name="org.visionFive.exception" />
+      <recent name="org.visionFive.controller" />
+      <recent name="org.visionFive.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\todoList\src\test" />
+      <recent name="C:\Users\Dell\IdeaProjects\todoList\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.visionFive.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TodoListServiceImplTest">
+    <configuration name="TodoListServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.visionFive.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.visionFive.services" />
+      <option name="MAIN_CLASS_NAME" value="org.visionFive.services.TodoListServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListServiceImplTest.findAllTaskForThisToday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.visionFive.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.visionFive.services" />
+      <option name="MAIN_CLASS_NAME" value="org.visionFive.services.TodoListServiceImplTest" />
+      <option name="METHOD_NAME" value="findAllTaskForThisToday" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListServiceImplTest.testThatWhenICreateATaskAndSetADueDateICanUpdateTheDueDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.visionFive.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.visionFive.services" />
+      <option name="MAIN_CLASS_NAME" value="org.visionFive.services.TodoListServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatWhenICreateATaskAndSetADueDateICanUpdateTheDueDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListServiceImplTest.testThatWhenICreateTaskICanDeleteTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.visionFive.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.visionFive.services" />
+      <option name="MAIN_CLASS_NAME" value="org.visionFive.services.TodoListServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatWhenICreateTaskICanDeleteTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="todoList" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.visionFive.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.visionFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TodoListServiceImplTest" />
+        <item itemvalue="JUnit.TodoListServiceImplTest.testThatWhenICreateTaskICanDeleteTask" />
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.TodoListServiceImplTest.findAllTaskForThisToday" />
+        <item itemvalue="JUnit.TodoListServiceImplTest.testThatWhenICreateATaskAndSetADueDateICanUpdateTheDueDate" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,11 +218,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702627327575</updated>
-      <workItem from="1702627328793" duration="21000" />
+      <workItem from="1702627328793" duration="14358000" />
+      <workItem from="1702653658409" duration="8027000" />
+      <workItem from="1702679921478" duration="48532000" />
+      <workItem from="1702858685398" duration="6388000" />
+      <workItem from="1702891978000" duration="68033000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/visionFive/data/repository/TodoListRepository.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/org/visionFive/services/TodoListServiceImplTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

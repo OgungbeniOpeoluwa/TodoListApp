@@ -1,2 +1,8 @@
-package org.visionFive.dto.response;public class ViewTaskResponse {
+package org.visionFive.dto.response;
+
+import lombok.Data;
+
+@Data
+public class ViewTaskResponse {
+    private Object task;
 }

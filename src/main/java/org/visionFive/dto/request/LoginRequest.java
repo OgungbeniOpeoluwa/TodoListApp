@@ -1,4 +1,4 @@
-package org.visionFive.dto;
+package org.visionFive.dto.request;
 
 import lombok.Data;
 

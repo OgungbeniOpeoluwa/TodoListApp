@@ -1,2 +1,8 @@
-package org.visionFive.dto.response;public class RegisterResponse {
+package org.visionFive.dto.response;
+
+import lombok.Data;
+
+@Data
+public class RegisterResponse {
+    String message;
 }

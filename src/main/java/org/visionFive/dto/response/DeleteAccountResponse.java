@@ -1,2 +1,8 @@
-package org.visionFive.dto.response;public class DeleteAccountResponse {
+package org.visionFive.dto.response;
+
+import lombok.Data;
+
+@Data
+public class DeleteAccountResponse {
+    private String message;
 }

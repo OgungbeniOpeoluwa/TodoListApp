@@ -1,2 +1,8 @@
-package org.visionFive.controller;public class CreateResponse {
+package org.visionFive.dto.response;
+
+import lombok.Data;
+
+@Data
+public class CreateResponse {
+    private String message;
 }

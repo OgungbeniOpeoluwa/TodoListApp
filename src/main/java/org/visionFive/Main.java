@@ -1,7 +1,19 @@
-package org.example;
+package org.visionFive;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.visionFive.controller.TodoController;
+import org.visionFive.data.repository.TodoListRepository;
+import org.visionFive.dto.request.UpdateRequest;
+import org.visionFive.services.TodoListServiceImpl;
+import org.visionFive.util.Date;
+
+@SpringBootApplication
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+
+        SpringApplication.run(Main.class,args);
     }
 }
