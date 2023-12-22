@@ -5,55 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/model/TodoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/data/repository/TodoListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/AllTaskForADayRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/AllTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/CreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/DataRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/DeleteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/UpdateDueDateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/UpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/request/ViewTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/AllDayTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/AllTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/CreateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/DeleteATaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/DeleteAccountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/DeleteAllResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/RegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/UpdateDueDateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/UpdateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/dto/response/ViewTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/InvalidDetailsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/InvalidRegistraionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/NoTaskAvailableForUserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/exception/TodoListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/DueDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/HashPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/visionFive/services/TodoListServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ZZQruiDG8GJR4dmOrpsfWqE4ix" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -97,6 +52,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -123,7 +79,7 @@
       <recent name="org.visionFive.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TodoListServiceImplTest">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="TodoListServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todoList" />
       <extension name="coverage">
@@ -202,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="JUnit.TodoListServiceImplTest" />
         <item itemvalue="JUnit.TodoListServiceImplTest.testThatWhenICreateTaskICanDeleteTask" />
-        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="JUnit.TodoListServiceImplTest.findAllTaskForThisToday" />
         <item itemvalue="JUnit.TodoListServiceImplTest.testThatWhenICreateATaskAndSetADueDateICanUpdateTheDueDate" />
       </list>
@@ -222,7 +178,8 @@
       <workItem from="1702653658409" duration="8027000" />
       <workItem from="1702679921478" duration="48532000" />
       <workItem from="1702858685398" duration="6388000" />
-      <workItem from="1702891978000" duration="68033000" />
+      <workItem from="1702891978000" duration="70282000" />
+      <workItem from="1703171562790" duration="1442000" />
     </task>
     <servers />
   </component>
