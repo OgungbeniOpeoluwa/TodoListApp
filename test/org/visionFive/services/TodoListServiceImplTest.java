@@ -39,14 +39,14 @@ class TodoListServiceImplTest {
     public void setup(){
         registerRequest = new RegisterRequest();
         registerRequest.setUsername("philip");
-        registerRequest.setPassword("password");
+        registerRequest.setPassword("Opemip@1");
 
     }
     @BeforeEach
     public void loginSetup(){
         loginRequest = new LoginRequest();
         loginRequest.setUsername("philip");
-        loginRequest.setPassword("password");
+        loginRequest.setPassword("Opemip@1");
 
 
 
@@ -111,10 +111,10 @@ class TodoListServiceImplTest {
         todoListService.register(registerRequest);
         todoListService.login(loginRequest);;
         registerRequest.setUsername("delighted");
-        registerRequest.setPassword("ope");
+        registerRequest.setPassword("Opeye@12");
         todoListService.register(registerRequest);
         loginRequest.setUsername("delighted");
-        loginRequest.setPassword("ope");
+        loginRequest.setPassword("Opeye@12");
         todoListService.login(loginRequest);
         Date date  = new Date();
         date.setYear(2023);
@@ -133,7 +133,7 @@ class TodoListServiceImplTest {
         dueDates.setDate(dates);
         dueDates.setHour(11);
         dueDates.setMinutes(0);
-        DataRequest dataRequests = new DataRequest("baby",dueDates);
+        DataRequest dataRequests = new DataRequest("baby",dueDates,dates);
         todoListService.create("philip",dataRequest);
         todoListService.create("delighted",dataRequests);
         List<Task> philipTask = todoListService.viewADayTodos("delighted",dates);
@@ -151,7 +151,7 @@ class TodoListServiceImplTest {
         dueDate.setDate(date);
         dueDate.setHour(10);
         dueDate.setMinutes(30);
-        DataRequest dataRequest = new DataRequest("ope",dueDate);
+        DataRequest dataRequest = new DataRequest("ope",dueDate,date);
         todoListService.create("philip",dataRequest);
         todoListService.findTask("philip","ope",date);
         assertThrows(InvalidDetailsException.class,()->todoListService.findTask("philip","name",date));
@@ -187,7 +187,7 @@ class TodoListServiceImplTest {
         dueDate.setDate(date);
         dueDate.setHour(11);
         dueDate.setMinutes(0);
-        DataRequest dataRequest = new DataRequest("ope",dueDate);
+        DataRequest dataRequest = new DataRequest("ope",dueDate,date);
         todoListService.create("philip",dataRequest);
         Date dates  = new Date();
         dates.setYear(2024);
