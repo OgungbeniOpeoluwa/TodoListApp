@@ -6,6 +6,7 @@ import org.visionFive.dto.request.CreateRequest;
 import org.visionFive.dto.request.DataRequest;
 import org.visionFive.dto.request.RegisterRequest;
 import org.visionFive.exception.InvalidDetailsException;
+import org.visionFive.exception.InvalidPasswwordException;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -17,11 +18,19 @@ public class Mapper {
     public static TodoList mapRegisterRegistration(RegisterRequest registerRequest) {
         TodoList todoList = new TodoList();
         todoList.setUsername(registerRequest.getUsername());
-        String salt = HashPassword.getSaltValue();
-        String hashPassword = HashPassword.securePassword(registerRequest.getPassword(),salt);
-        String password = salt+hashPassword;
-        todoList.setPassword(password);
+        if(isPassword(registerRequest.getPassword())) {
+            String salt = HashPassword.getSaltValue();
+            String hashPassword = HashPassword.securePassword(registerRequest.getPassword(), salt);
+            String password = salt + hashPassword;
+            todoList.setPassword(password);
+        }
         return todoList;
+    }
+
+    public static boolean isPassword(String password){
+        if(password.matches("^[A-Z].*${8}")) return true;
+        throw new InvalidPasswwordException("Password is too weak,must consist of capital letter,digit and a character with 8 length");
+
     }
 
     public static void mapLogin(TodoList todoList, String password){

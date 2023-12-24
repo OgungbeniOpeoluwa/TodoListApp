@@ -13,7 +13,7 @@ import org.visionFive.util.Mapper;
 import static org.visionFive.util.Mapper.mapper;
 
 @RestController
-@RequestMapping("api/request")
+@RequestMapping("api/user")
 public class TodoController {
     private final TodoListService todoListService;
     @Autowired
@@ -21,7 +21,7 @@ public class TodoController {
         this.todoListService = todoListService;
     }
 
-    @PostMapping("/register")
+    @PostMapping("/users")
     public ResponseEntity<ApiResponse> register(@RequestBody RegisterRequest registerRequest){
         RegisterResponse registerResponse = new RegisterResponse();
         try {

@@ -125,6 +125,7 @@ public class TodoListServiceImpl implements TodoListService {
     public void deleteTodo(String username) {
         if(!(userExist(username))) throw new InvalidDetailsException(username + " doesn't exist");
         TodoList todoList  = todoListRepository.findByUsername(username);
+        checkIfAccountIsLocked(username);
         todoListRepository.delete(todoList);
     }
 
