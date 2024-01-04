@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* org.visionFive.todoList
+web: java -Dserver.port=443 -jar target/*.jar
