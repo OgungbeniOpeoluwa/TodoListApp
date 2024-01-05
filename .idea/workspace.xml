@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="" />
+    <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +190,7 @@
       <workItem from="1704386454432" duration="44000" />
       <workItem from="1704386578072" duration="10118000" />
       <workItem from="1704406299502" duration="1454000" />
-      <workItem from="1704445127765" duration="7721000" />
+      <workItem from="1704445127765" duration="8148000" />
     </task>
     <servers />
   </component>
