@@ -5,49 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/controller/TodoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/data/model/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/data/model/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/data/model/TodoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/data/model/TodoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/data/repository/TodoListRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/data/repository/TodoListRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/AllTaskForADayRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/AllTaskForADayRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/AllTaskRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/AllTaskRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/CreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/CreateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/DataRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/DataRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/DeleteRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/DeleteRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/RegisterRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/UpdateDueDateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/UpdateDueDateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/UpdateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/UpdateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/ViewTaskRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/request/ViewTaskRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/AllDayTaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/AllDayTaskResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/AllTaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/AllTaskResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/ApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/ApiResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/CreateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/CreateResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/DeleteATaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/DeleteATaskResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/DeleteAccountResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/DeleteAccountResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/DeleteAllResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/DeleteAllResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/LoginResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/LoginResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/RegisterResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/RegisterResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/UpdateDueDateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/UpdateDueDateResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/UpdateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/UpdateResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/ViewTaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/dto/response/ViewTaskResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/exception/InvalidDetailsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/exception/InvalidDetailsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/exception/InvalidPasswwordException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/exception/InvalidPasswwordException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/exception/InvalidRegistraionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/exception/InvalidRegistraionException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/exception/NoTaskAvailableForUserException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/exception/NoTaskAvailableForUserException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/exception/TodoListException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/exception/TodoListException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/services/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/services/TaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/services/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/services/TaskServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/services/TodoListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/services/TodoListService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/services/TodoListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/services/TodoListServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/util/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/util/Date.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/util/DueDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/util/DueDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/util/HashPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/util/HashPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/util/Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/util/Mapper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +189,7 @@
       <workItem from="1704386454432" duration="44000" />
       <workItem from="1704386578072" duration="10118000" />
       <workItem from="1704406299502" duration="1454000" />
-      <workItem from="1704445127765" duration="677000" />
+      <workItem from="1704445127765" duration="1549000" />
     </task>
     <servers />
   </component>
