@@ -10,7 +10,7 @@ import org.visionFive.data.repository.TodoListRepository;
 import org.visionFive.dto.request.UpdateRequest;
 import org.visionFive.services.TodoListServiceImpl;
 import org.visionFive.util.Date;
-@ComponentScan({"org.visionFive.*"})
+
 @EnableMongoRepositories
 @SpringBootApplication
 public class Main {
