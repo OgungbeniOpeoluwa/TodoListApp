@@ -122,7 +122,7 @@ public class TodoListServiceImpl implements TodoListService {
     }
 
     @Override
-    public void deleteTodo(String username) {
+    public void deleteTodoAccount(String username) {
         if(!(userExist(username))) throw new InvalidDetailsException(username + " doesn't exist");
         TodoList todoList  = todoListRepository.findByUsername(username);
         checkIfAccountIsLocked(username);

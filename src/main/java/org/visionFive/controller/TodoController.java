@@ -8,7 +8,6 @@ import org.visionFive.dto.request.*;
 import org.visionFive.dto.response.*;
 import org.visionFive.exception.TodoListException;
 import org.visionFive.services.TodoListService;
-import org.visionFive.util.Mapper;
 
 import static org.visionFive.util.Mapper.mapper;
 
@@ -156,7 +155,7 @@ public class TodoController {
     public ResponseEntity<?> deleteAccount(@PathVariable("username")String username){
         DeleteAccountResponse deleteResponse = new DeleteAccountResponse();
         try{
-            todoListService.deleteTodo(username);
+            todoListService.deleteTodoAccount(username);
             deleteResponse.setMessage("your account has been deleted");
             return new ResponseEntity<>(new ApiResponse(deleteResponse,true),HttpStatus.ACCEPTED);
         }

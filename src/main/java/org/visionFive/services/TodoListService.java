@@ -31,5 +31,5 @@ public interface TodoListService {
 
     void deleteATask(String username, String taskMessage, Date date);
 
-    void deleteTodo(String username);
+    void deleteTodoAccount(String username);
 }

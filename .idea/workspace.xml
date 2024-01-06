@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/services/TodoListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/visionFive/util/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/util/Mapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/data/repository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/data/repository/TaskRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/data/repository/TodoListRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/data/repository/TodoListRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.visionFive.services" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+      <command value="mvn deploy" />
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="TodoListServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -195,7 +203,8 @@
       <workItem from="1704386454432" duration="44000" />
       <workItem from="1704386578072" duration="10118000" />
       <workItem from="1704406299502" duration="1454000" />
-      <workItem from="1704445127765" duration="14715000" />
+      <workItem from="1704445127765" duration="15407000" />
+      <workItem from="1704474793917" duration="10112000" />
     </task>
     <servers />
   </component>

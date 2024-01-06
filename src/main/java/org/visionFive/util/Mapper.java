@@ -28,9 +28,8 @@ public class Mapper {
     }
 
     public static boolean isPassword(String password){
-        if(password.matches("^[A-Z].*${8}")) return true;
-        throw new InvalidPasswwordException("Password is too weak,must consist of capital letter,digit and a character with 8 length");
-
+        if(password.matches("^[A-Z].*${8,20}")) return true;
+        throw new InvalidPasswwordException("Password is too weak,must start with a capital letter,and any character with at least 8 length");
     }
 
     public static void mapLogin(TodoList todoList, String password){
