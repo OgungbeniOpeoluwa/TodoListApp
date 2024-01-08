@@ -1,1 +1,1 @@
-web: java -Dserver.port=443 -jar target/*.jar
+web: java -Dserver.port=443 -jar target/*.jar $PORT
