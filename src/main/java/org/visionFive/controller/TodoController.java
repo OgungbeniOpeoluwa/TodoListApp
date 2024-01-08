@@ -20,6 +20,11 @@ public class TodoController {
         this.todoListService = todoListService;
     }
 
+    @GetMapping({"/run"})
+    public String runApplication(){
+        return"Application is up and running";
+    }
+
     @PostMapping("/users")
     public ResponseEntity<ApiResponse> register(@RequestBody RegisterRequest registerRequest){
         RegisterResponse registerResponse = new RegisterResponse();
