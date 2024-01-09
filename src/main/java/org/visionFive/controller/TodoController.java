@@ -20,7 +20,7 @@ public class TodoController {
         this.todoListService = todoListService;
     }
 
-    @RequestMapping("api/user")
+    @RequestMapping("web-production-1e5e.up.railway.app")
     public String runApplication(){
         return"Application is up and running";
     }
