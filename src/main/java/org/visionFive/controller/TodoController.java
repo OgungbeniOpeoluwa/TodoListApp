@@ -12,7 +12,7 @@ import org.visionFive.services.TodoListService;
 import static org.visionFive.util.Mapper.mapper;
 
 @RestController
-@RequestMapping("api/user")
+//@RequestMapping("api/user")
 public class TodoController {
     private final TodoListService todoListService;
     @Autowired
@@ -20,7 +20,7 @@ public class TodoController {
         this.todoListService = todoListService;
     }
 
-    @GetMapping({"/run"})
+    @RequestMapping("api/user")
     public String runApplication(){
         return"Application is up and running";
     }
