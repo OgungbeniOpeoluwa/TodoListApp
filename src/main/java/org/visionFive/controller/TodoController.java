@@ -21,7 +21,7 @@ public class TodoController {
     }
 
     @CrossOrigin(origins="https://web-production-1e5e.up.railway.app")
-    @GetMapping()
+    @GetMapping("/")
     public String runApplication(){
         return "Application is up and running";
     }
