@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +200,7 @@
       <workItem from="1704445127765" duration="15407000" />
       <workItem from="1704474793917" duration="16025000" />
       <workItem from="1704575098048" duration="1839000" />
-      <workItem from="1704725789470" duration="10773000" />
+      <workItem from="1704725789470" duration="12783000" />
     </task>
     <servers />
   </component>
