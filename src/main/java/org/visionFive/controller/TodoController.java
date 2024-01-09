@@ -20,6 +20,7 @@ public class TodoController {
         this.todoListService = todoListService;
     }
 
+    @CrossOrigin
     @GetMapping("/web-production-1e5e.up.railway.app")
     public String runApplication(){
         return "Application is up and running";
