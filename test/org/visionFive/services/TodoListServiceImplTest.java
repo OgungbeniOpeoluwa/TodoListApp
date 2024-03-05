@@ -21,7 +21,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
-class TodoListServiceImplTest {
+class  TodoListServiceImplTest {
     @Autowired
     private TodoListRepository todoListRepository;
     @Autowired
