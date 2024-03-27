@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e076e2c9-c2bf-4507-b348-ddd11110228a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoListErd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListUseCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodolistUml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/visionFive/controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/visionFive/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/visionFive/controller/TodoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/visionFive/services/TodoListServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/visionFive/services/TodoListServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2ZZQruiDG8GJR4dmOrpsfWqE4ix" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -85,6 +82,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\todoList" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.visionFive.services" />
@@ -220,6 +220,11 @@
       <workItem from="1708511582272" duration="1301000" />
       <workItem from="1709571488279" duration="3771000" />
       <workItem from="1709597843438" duration="365000" />
+      <workItem from="1709604879530" duration="278000" />
+      <workItem from="1709605989191" duration="1236000" />
+      <workItem from="1709695131695" duration="1919000" />
+      <workItem from="1709804945645" duration="634000" />
+      <workItem from="1711261499081" duration="1248000" />
     </task>
     <servers />
   </component>

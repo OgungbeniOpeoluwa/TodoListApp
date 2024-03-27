@@ -9,5 +9,5 @@ public class CreateRequest {
     private String username;
     private String message;
     private DueDate dueDate;
-    private Date date;
+    private Date creationDate;
 }
