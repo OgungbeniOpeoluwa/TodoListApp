@@ -1,8 +1,8 @@
-﻿**TODOLIST APP**
+﻿# ****TODOLIST APPLICATION****
 
-This Todo list web application is designed to help users organise and manage tasks efficiently.it allows 
+_This Todo list web application is designed to help users organise and manage tasks efficiently.it allows 
 users create,edit,update,set due date and also delete task they have completed.This application is built using 
-java Maven springboot and mongodb database.
+java Maven springboot and mongodb database._
 
 **Table of content**
 1. [Features](#Features)
@@ -13,31 +13,31 @@ java Maven springboot and mongodb database.
 # Pre-requites
 * JDK 21
 * Postman
-* MySql
+* MongoDb
 * Maven
 
 # SetUp
-1. Create an account with git.
-2. From your terminal/command prompt clone the repository using this git command 
-   * git clone <https://github.com/OgungbeniOpeoluwa/ContactManagement.git>.
-3. Ensure all dependencies in the project are well injected in your pom.xml.
-   * To download and build the project you can run this command on the terminal: _mvn clean install_
-4. setup mysql database to configure database connection.
-5. To start the application from your IDE run the application main class.Alternatively you can run this command on the terminal
-   * mvn spring-boot:run
-6. install postman to test the application end-points by providing the necessary url and body requests if necessary.
+1. _Create an account with git._
+2. _From your terminal/command prompt clone the repository using this git command_ 
+   * git clone <https://github.com/OgungbeniOpeoluwa/TodoListApp.git>.
+3. _Ensure all dependencies in the project are well injected in your pom.xml._
+     * To download and build the project you can run this command on the terminal: _mvn clean install_
+4. _Ensure  mongodb database is configure for proper database connection._
+5. _To start the application from your IDE run the application main class.Alternatively you can run this command on the terminal._
+      * mvn spring-boot:run
+6. _install postman to test the application end-points by providing the necessary url and body requests if necessary._
 
 # Features
-* User Registration
-* User Login
-* Create a task in todo 
-* View All tasks in todo list
-* View A day tasks in todo list
-* View a task in todo list 
-* Update a task in todo 
-* Update due date of a task
-* Delete all task in todo list 
-* Delete a task in todo list
+* _User Registration_
+* _User Login_
+* _Create a task in todo_ 
+* _View All tasks in todo list_
+* _View A day tasks in todo list_
+* _View a task in todo list_
+* _Update a task in todo_ 
+* _Update due date of a task_
+* _Delete all task in todo list_
+* _Delete a task in todo list_
 
 
 # ENDPOINT
