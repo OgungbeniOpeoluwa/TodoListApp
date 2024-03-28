@@ -4,7 +4,7 @@ _This Todo list web application is designed to help users organise and manage ta
 users create,edit,update,set due date and also delete task they have completed.This application is built using 
 java Maven springboot and mongodb database._
 
-**Table of content**
+## **Table of content**
 1. [Features](#Features)
 2. [EndPoints](#EndPoint)
 3. [SetUp](#SetUp)
