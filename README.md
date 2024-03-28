@@ -594,7 +594,8 @@ _Successful request_
 }
 ```
 
-**### Response 2**
+### **Response 2**
+
 _unsuccessful request.Failed to log in before calling the request_
 
     Status Code: Not_Found
